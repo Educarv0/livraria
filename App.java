@@ -18,8 +18,38 @@ public class App {
         Livro livro2 = new Livro();
         livro2.setNome("Box Harry Potter");
         livro2.setAutor("JK Rowling");
-        livro2.setAno(2002);
+        livro2.setAno(2008);
 
+        Livro livro3 = new Livro();
+        livro3.setNome("Box Percy Jackson e os olimpianos");
+        livro3.setAutor("Rick Riordan");
+        livro3.setAno(2024);
+
+        Livro livro4 = new Livro();
+        livro4.setNome("Dom, Casmurro");
+        livro4.setAutora("Machado de Assis");
+        livro4.setAno(1899);
+
+        Livro livro5 = new Livro();
+        livro5.setNome("O Poder do Silêncio");
+        livro5.setAutora("Eckhart Tolle");
+        livro5.setAno(2003);
+
+        Livro livro6 = new Livro();
+        livro6.setNome("O Lado Feio do Amor");
+        livro6.setAutora("Colleen Hoover");
+        livro6.setAno(2014);
+
+        Livro livro7 = new Livro();
+        livro7.setNome("O Alquimista");
+        livro7.setAutora("Paulo Coelho");
+        livro7.setAno(1988);
+
+        Livro livro8 = new Livro();
+        livro8.setNome("Box Crepúsculo");
+        livro8.setAutora("Stephenie Meyer");
+        livro8.setAno(2010);
+        
         Curso curso_INF = new Curso();
         curso_INF.setNome("Informática");
         Curso curso_AL = new Curso();
