@@ -3,6 +3,19 @@ public class Livro {
     private String autor;
     private int ano;
 
+    public Livro(String nome, String autor, int ano) {
+        this.nome = nome;
+        this.autor = autor;
+        this.ano = ano;
+    }
+
+    public void exibir_dados(){
+        System.out.println("\nNome do livro: " + nome);
+        System.out.println("Autor do livro: " + autor);
+        System.out.println("Ano de publicação do livro: " + ano);
+
+    }
+
     public String getNome() {
         return nome;
     }
