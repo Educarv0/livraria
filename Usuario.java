@@ -26,4 +26,22 @@ public class Usuario {
         System.out.println("Curso do aluno: " + curso.getNome());
 
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
+
+    
 }
