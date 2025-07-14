@@ -4,9 +4,10 @@ public class Exemplar {
     private String status;
     private Livro livro;
 
-    public Exemplar() {
+    public Exemplar(Livro livro) {
         this.codigo = proximoCodigo++;
         this.status = "Livre";
+        this.livro = livro;
     }
 
     public void exibir_dados(){
